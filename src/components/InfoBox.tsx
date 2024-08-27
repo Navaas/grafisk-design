@@ -1,7 +1,7 @@
 function InfoBox() {
   return (
-    <div className="flex justify-center items-center py-6 px-2">
-      <div className="flex w-full md:w-3/4 bg-white justify-center p-4 flex-col shadow-xl">
+    <div className="flex justify-center items-center p-2 mt-9">
+      <div className="flex w-full xl:w-3/4 bg-white justify-center p-4 flex-col shadow-md">
         <h1 className="text-3xl">Lotus Oas</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et

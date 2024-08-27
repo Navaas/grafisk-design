@@ -1,3 +1,4 @@
+import Card from "./components/Card";
 import Header from "./components/Header";
 import InfoBox from "./components/InfoBox";
 
@@ -13,6 +14,7 @@ function App() {
         />
       </div>
       <InfoBox />
+      <Card />
     </>
   );
 }
