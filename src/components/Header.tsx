@@ -23,11 +23,21 @@ function Header() {
         </span>
       </div>
       <div className="hidden md:flex md:list-none md:gap-14 md:items-center">
-        <li className="import-font cursor-pointer text-white">Erbjudande</li>
-        <li className="import-font cursor-pointer text-white">Paket</li>
-        <li className="import-font cursor-pointer text-white">Spa</li>
-        <li className="import-font cursor-pointer text-white">Mat & Dryck</li>
-        <li className="import-font cursor-pointer text-white">Konferens</li>
+        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+          Erbjudande
+        </li>
+        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+          Paket
+        </li>
+        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+          Spa
+        </li>
+        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+          Mat & Dryck
+        </li>
+        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916]">
+          Konferens
+        </li>
       </div>
       <div>
         <button className="bg-[#FAA916] text-white p-2 rounded-md w-20 hidden md:block">

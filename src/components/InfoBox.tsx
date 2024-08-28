@@ -26,7 +26,7 @@ function InfoBox() {
           </p>
         </div>
 
-        <div className="flex justify-center xl:w-1/2 p-2">
+        <div className="flex justify-center xl:w-1/2 p-2 hover:opacity-70">
           <img
             className="h-auto object-cover w-full"
             src="https://images.unsplash.com/photo-1583417267826-aebc4d1542e1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
