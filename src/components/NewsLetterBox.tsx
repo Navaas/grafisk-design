@@ -1,7 +1,7 @@
 function NewLetterBox() {
   return (
     <>
-      <div className="flex justify-center items-center p-2 mt-9 bg-[#B48291]">
+      <div className="flex justify-center items-center p-2 mt-9 bg-[#798E6F]">
         <div className="flex w-full xl:w-3/4 items-center  text-black justify-center p-4 flex-col md:flex-col xl:flex-row gap-6">
           <div className="w-full flex flex-col gap-2 ">
             <h1>

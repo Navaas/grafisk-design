@@ -12,11 +12,11 @@ function Card() {
               />
             </div>
             <h2 className="text-xl font-semibold mb-2">Box 1</h2>
-            <p>
+            <p className="mb-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               massa magna. Aenean id tortor nec odio varius tincidunt.
             </p>
-            <button className="bg-[#798E6F] p-2 rounded-md text-white my-4">
+            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white">
               Läs mer
             </button>
           </div>
@@ -29,12 +29,12 @@ function Card() {
               />
             </div>
             <h2 className="text-xl font-semibold mb-2">Box 2</h2>
-            <p>
+            <p className="mb-2">
               Curabitur sit amet pharetra ipsum. Maecenas nec nisl a sapien
               suscipit gravida sit amet sed nisl. Vestibulum imperdiet tincidunt
               tincidunt.
             </p>
-            <button className="bg-[#798E6F] p-2 rounded-md text-white my-4">
+            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white">
               Läs mer
             </button>
           </div>
@@ -47,11 +47,11 @@ function Card() {
               />
             </div>
             <h2 className="text-xl font-semibold mb-2">Box 3</h2>
-            <p>
+            <p className="mb-2">
               In hac habitasse platea dictumst. Nam vestibulum quam nec turpis
               malesuada, ut feugiat velit tincidunt. Nulla facilisi.
             </p>
-            <button className="bg-[#798E6F] p-2 rounded-md text-white my-4">
+            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white">
               Läs mer
             </button>
           </div>
