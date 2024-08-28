@@ -1,33 +1,37 @@
 function InfoBox() {
   return (
     <div className="flex justify-center items-center p-2 mt-9 bg-[#FAF9F9]">
-      <div className="flex w-full xl:w-3/4 bg-white justify-center p-4 flex-col shadow-md">
-        <h1 className="text-3xl">Lotus Oas</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-          massa magna. Aenean id tortor nec odio varius tincidunt. Donec
-          tincidunt cursus nunc, at egestas turpis commodo non. Ut auctor urna a
-          ligula feugiat, id aliquam nulla aliquam. Nullam nec felis vestibulum,
-          lobortis eros nec, condimentum dui. Cras ac sapien vehicula, aliquam
-          risus eu, vulputate urna. Duis ut viverra erat. Pellentesque habitant
-          morbi tristique senectus et netus et malesuada fames ac turpis
-          egestas.
-        </p>
-        <p>
-          Curabitur sit amet pharetra ipsum. Maecenas nec nisl a sapien suscipit
-          gravida sit amet sed nisl. Vestibulum imperdiet tincidunt tincidunt.
-          Suspendisse potenti. Morbi luctus nisi sit amet nunc posuere
-          ultricies. Fusce ac volutpat libero. Sed volutpat metus sit amet
-          libero ultricies, nec venenatis lacus hendrerit. Integer quis dui
-          libero. Vestibulum ac ligula vitae ante cursus vehicula.
-        </p>
-        <div className="flex py-6 gap-4">
-          <button className="bg-[#FAA916] p-2 rounded-md text-white">
-            Boka spa
-          </button>
-          <button className="bg-[#FAA916] p-2 rounded-md text-white">
-            Erbjudande
-          </button>
+      <div className="flex w-full xl:w-3/4 bg-white justify-center p-2 flex-col xl:flex-row shadow-md">
+        <div className="flex flex-col justify-center xl:w-1/2 p-2">
+          <h3>En fridfull oas för kropp och själ.</h3>
+          <br />
+          <p>
+            Välkommen till
+            <span className="font-bold text-[#798E6F]"> Lotus Oas</span>, en
+            lyxig och fridfull tillflyktsort där vi kombinerar traditionella
+            spa-upplevelser med modern wellness. Beläget i hjärtat av natursköna
+            omgivningar erbjuder vi en oas av lugn och avkoppling, perfekt för
+            dig som vill fly vardagens stress och hitta en plats för
+            återhämtning och förnyelse.
+          </p>
+          <br />
+          <p>
+            Hos Lotus Oas strävar vi efter att ge dig en holistisk upplevelse
+            där varje detalj är utformad för att främja ditt välbefinnande.
+            Oavsett om du kommer för en snabb behandling eller en hel dags
+            avkoppling, är vi här för att säkerställa att din tid hos oss är
+            minnesvärd och förnyande.
+            <br />
+            <br />- Vi ser fram emot att ta hand om dig!
+          </p>
+        </div>
+
+        <div className="flex justify-center xl:w-1/2 p-2">
+          <img
+            className="h-auto object-cover w-full"
+            src="https://images.unsplash.com/photo-1583417267826-aebc4d1542e1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="bild"
+          />
         </div>
       </div>
     </div>
