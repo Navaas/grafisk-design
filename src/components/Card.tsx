@@ -1,6 +1,6 @@
 function Card() {
   return (
-    <div className="flex justify-center items-center py-16 px-2">
+    <div className="flex justify-center items-center py-16 px-2 bg-[#FAF9F9]">
       <div className="flex w-full xl:w-3/4 flex-col">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:grid-cols-3">
           <div className="bg-white p-4 rounded-lg shadow-md">

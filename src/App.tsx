@@ -1,10 +1,11 @@
 import Card from "./components/Card";
 import Header from "./components/Header";
 import InfoBox from "./components/InfoBox";
+import NewLetterBox from "./components/NewsLetterBox";
 
 function App() {
   return (
-    <>
+    <div className="bg-[#FAF9F9]">
       <Header />
       <div className="w-full h-72 sm:h-80 md:h-96 lg:h-[28rem] overflow-hidden">
         <img
@@ -15,7 +16,8 @@ function App() {
       </div>
       <InfoBox />
       <Card />
-    </>
+      <NewLetterBox />
+    </div>
   );
 }
 

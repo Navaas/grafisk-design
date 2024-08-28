@@ -30,7 +30,7 @@ function Header() {
         <li className="import-font cursor-pointer text-white">Konferens</li>
       </div>
       <div>
-        <button className="bg-white color-black p-2 rounded-md w-20 hidden md:block">
+        <button className="bg-[#FAA916] text-white p-2 rounded-md w-20 hidden md:block">
           Boka
         </button>
       </div>

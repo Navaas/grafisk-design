@@ -1,6 +1,6 @@
 function InfoBox() {
   return (
-    <div className="flex justify-center items-center p-2 mt-9">
+    <div className="flex justify-center items-center p-2 mt-9 bg-[#FAF9F9]">
       <div className="flex w-full xl:w-3/4 bg-white justify-center p-4 flex-col shadow-md">
         <h1 className="text-3xl">Lotus Oas</h1>
         <p>
@@ -22,10 +22,10 @@ function InfoBox() {
           libero. Vestibulum ac ligula vitae ante cursus vehicula.
         </p>
         <div className="flex py-6 gap-4">
-          <button className="bg-[#798E6F] p-2 rounded-md text-white">
+          <button className="bg-[#FAA916] p-2 rounded-md text-white">
             Boka spa
           </button>
-          <button className="bg-[#798E6F] p-2 rounded-md text-white">
+          <button className="bg-[#FAA916] p-2 rounded-md text-white">
             Erbjudande
           </button>
         </div>
