@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import InfoBox from "./components/InfoBox";
 import NewLetterBox from "./components/NewsLetterBox";
@@ -19,6 +20,7 @@ function App() {
       <InfoBox />
       <Card />
       <NewLetterBox />
+      <Footer />
     </div>
   );
 }
