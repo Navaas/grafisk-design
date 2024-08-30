@@ -8,17 +8,19 @@ function InfoBox() {
           </h3>
           <br />
           <p className="text-font">
-            Välkommen till
-            <span className="font-bold text-[#798E6F]"> Lotus Oas</span>, en
-            lyxig och fridfull tillflyktsort där vi kombinerar traditionella
-            spa-upplevelser med modern wellness. Beläget i hjärtat av natursköna
-            omgivningar erbjuder vi en oas av lugn och avkoppling, perfekt för
-            dig som vill fly vardagens stress och hitta en plats för
+            Välkommen till{" "}
+            <span className="font-bold text-[#798E6F] underline">
+              Lotos Oas
+            </span>
+            , en lyxig och fridfull tillflyktsort där vi kombinerar
+            traditionella spa-upplevelser med modern wellness. Beläget i hjärtat
+            av natursköna omgivningar erbjuder vi en oas av lugn och avkoppling,
+            perfekt för dig som vill fly vardagens stress och hitta en plats för
             återhämtning och förnyelse.
           </p>
           <br />
           <p className="text-font">
-            Hos Lotus Oas strävar vi efter att ge dig en holistisk upplevelse
+            Hos Lotos Oas strävar vi efter att ge dig en holistisk upplevelse
             där varje detalj är utformad för att främja ditt välbefinnande.
             Oavsett om du kommer för en snabb behandling eller en hel dags
             avkoppling, är vi här för att säkerställa att din tid hos oss är

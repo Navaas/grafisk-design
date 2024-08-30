@@ -1,10 +1,11 @@
+import logo from "../../public/logo.png";
 import "../styles.css";
 
 function Header() {
   return (
     <nav className="p-4 bg-[#798E6F] flex flex-col justify-between md:flex-row text-font">
       <div className="flex items-center justify-between">
-        <span>Logga</span>
+        <img src={logo} alt="logo" className="h-12 xl:h-16" />
         <span className="md:hidden cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +13,7 @@ function Header() {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="size-6 text-white"
+            className="size-12 text-white"
           >
             <path
               strokeLinecap="round"
@@ -22,7 +23,7 @@ function Header() {
           </svg>
         </span>
       </div>
-      <div className="hidden md:flex md:list-none md:gap-14 md:items-center">
+      <div className="hidden md:flex md:list-none xl:gap-14 md:gap-5 md:items-center">
         <li className="import-font cursor-pointer text-white uppercase transform hover:scale-110 hover:font-bold">
           Erbjudande
         </li>

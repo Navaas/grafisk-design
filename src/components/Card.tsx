@@ -14,7 +14,7 @@ function Card() {
             <h2 className="text-xl font-semibold my-2">Restaurang</h2>
             <p className="mb-2 text-font">
               Efter en dag fylld av avslappning och behandlingar, kan du njuta
-              av en kulinarisk upplevelse i vår restaurang. Lotus Oas restaurang
+              av en kulinarisk upplevelse i vår restaurang. Lotos Oas restaurang
               erbjuder en meny skapad med fokus på hälsa och välbefinnande, med
               ett brett urval av rätter tillagade av lokala och ekologiska
               råvaror.
@@ -31,9 +31,9 @@ function Card() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h2 className="text-xl font-semibold my-2">Lotus Spa</h2>
+            <h2 className="text-xl font-semibold my-2">Lotos Spa</h2>
             <p className="mb-2 text-font">
-              På Lotus Oas tar vi avslappning på största allvar. Vårt spa är
+              På Lotos Oas tar vi avslappning på största allvar. Vårt spa är
               designat för att vara en plats av fullständig ro, där mjuka toner
               och harmoniska dofter omsluter dig från första stund. Här kan du
               njuta av vårt varma bubbelbad, simma i vår uppvärmda inomhuspool

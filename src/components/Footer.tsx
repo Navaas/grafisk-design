@@ -18,7 +18,7 @@ function Footer() {
       </div>
 
       <div className="flex flex-col items-start space-y-2 text-white">
-        <h3 className="uppercase text-white font-bold">Lotus oas</h3>
+        <h3 className="uppercase text-white font-bold">Lotos oas</h3>
         <li className="list-none cursor-pointer hover:underline hover:font-bold">
           Bad och spa
         </li>

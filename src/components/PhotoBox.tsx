@@ -8,7 +8,7 @@ function PhotoBox() {
     >
       <div className="bg-white bg-opacity-40 w-2/3 xl:w-1/2 flex flex-col justify-center items-center p-6 fade-in">
         <h1 className="text-3xl import-font xl:text-5xl text-black uppercase font-bold">
-          Lotus oas
+          Lotos oas
         </h1>
         <h2 className="text-black text-md md:text-xl mb-4 uppercase font-bold text-font">
           En harmonisk tillflykt för Kropp och Själ
