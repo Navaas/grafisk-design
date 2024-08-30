@@ -3,18 +3,49 @@ function Footer() {
     <footer className="p-6 bg-[#798E6F] flex flex-col md:flex-row md:justify-between gap-20 mt-16">
       <div className="flex flex-col items-start space-y-2 text-white">
         <h3 className="uppercase text-white font-bold">Om oss</h3>
-        <li className="list-none">Kontakta oss</li>
-        <li className="list-none">Hitta hit</li>
-        <li className="list-none">Öppetider</li>
-        <li className="list-none">FAQ</li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Kontakta oss
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Hitta hit
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Öppetider
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          FAQ
+        </li>
       </div>
 
       <div className="flex flex-col items-start space-y-2 text-white">
         <h3 className="uppercase text-white font-bold">Lotus oas</h3>
-        <li className="list-none">Kontakta oss</li>
-        <li className="list-none">Hitta hit</li>
-        <li className="list-none">Öppetider</li>
-        <li className="list-none">FAQ</li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Bad och spa
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Behandlingar
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Öppetider
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Barn på spa
+        </li>
+      </div>
+      <div className="flex flex-col items-start space-y-2 text-white">
+        <h3 className="uppercase text-white font-bold">Restaurang</h3>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Boka bord
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Frukost & Brunch
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Middag
+        </li>
+        <li className="list-none cursor-pointer hover:underline hover:font-bold">
+          Bistromeny
+        </li>
       </div>
 
       <div className="flex items-center space-x-4 mt-4 md:mt-0 md:ml-auto">

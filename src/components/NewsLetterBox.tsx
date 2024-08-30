@@ -3,11 +3,11 @@ function NewLetterBox() {
     <>
       <div className="flex justify-center items-center p-2 mt-9 ">
         <div className="flex w-full xl:w-3/4 items-center shadow-md bg-[#798E6F] text-black justify-center p-4 flex-col md:flex-col xl:flex-row gap-6 rounded-md">
-          <div className="w-full flex flex-col gap-2">
+          <div className="w-full flex flex-col gap-2 text-white">
             <h1 className="text-xl md:text-2xl uppercase font-bold">
               Prenumerera på vårt nyhetsbrev och
             </h1>
-            <h1 className="text-xl md:text-2xl uppercase font-bold">
+            <h1 className="text-xl md:text-2xl uppercase font-bold mb-6">
               ta del av nyheter & erbjudanden
             </h1>
             <input
@@ -15,7 +15,7 @@ function NewLetterBox() {
               placeholder="Skriv din mejladress.."
               className="w-full border-2 border-gray-300 p-2 rounded-lg"
             />
-            <button className="bg-[#FAA916] text-white py-4 px-4 xl:w-1/3 m-2 uppercase drop-shadow-xl hover:opacity-80 transform hover:scale-110">
+            <button className="bg-[#FAA916] text-white py-2 px-2 xl:w-1/3 m-2 uppercase drop-shadow-xl hover:opacity-80 transform hover:scale-110">
               Skicka
             </button>
           </div>

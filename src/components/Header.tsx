@@ -23,19 +23,19 @@ function Header() {
         </span>
       </div>
       <div className="hidden md:flex md:list-none md:gap-14 md:items-center">
-        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+        <li className="import-font cursor-pointer text-white uppercase transform hover:scale-110 hover:font-bold">
           Erbjudande
         </li>
-        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+        <li className="import-font cursor-pointer text-white uppercase transform hover:scale-110 hover:font-bold">
           Paket
         </li>
-        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+        <li className="import-font cursor-pointer text-white uppercase transform hover:scale-110 hover:font-bold">
           Spa
         </li>
-        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916] uppercase">
+        <li className="import-font cursor-pointer text-white uppercase transform hover:scale-110 hover:font-bold">
           Mat & Dryck
         </li>
-        <li className="import-font cursor-pointer text-white hover:underline hover:decoration-[#FAA916]">
+        <li className="import-font cursor-pointer text-white uppercase transform hover:scale-110 hover:font-bold">
           Konferens
         </li>
       </div>
