@@ -40,7 +40,7 @@ function Header() {
         </li>
       </div>
       <div>
-        <button className="bg-[#FAA916] text-white p-2 rounded-md w-20 hidden md:block">
+        <button className="bg-[#FAA916] text-white py-4 px-4 m-2 uppercase drop-shadow-xl hover:opacity-80 transform hover:scale-110 w-20 hidden md:block">
           Boka
         </button>
       </div>

@@ -15,7 +15,7 @@ function NewLetterBox() {
               placeholder="Skriv din mejladress.."
               className="w-full border-2 border-gray-300 p-2 rounded-lg"
             />
-            <button className="bg-[#FAA916] border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white transform hover:scale-105 transition-transform duration-100">
+            <button className="bg-[#FAA916] text-white py-4 px-4 xl:w-1/3 m-2 uppercase drop-shadow-xl hover:opacity-80 transform hover:scale-110">
               Skicka
             </button>
           </div>
