@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="p-6 bg-[#798E6F] flex flex-col md:flex-row md:justify-between gap-20">
+    <footer className="p-6 bg-[#798E6F] flex flex-col md:flex-row md:justify-between gap-20 mt-16">
       <div className="flex flex-col items-start space-y-2 text-white">
         <h3 className="uppercase text-white font-bold">Om oss</h3>
         <li className="list-none">Kontakta oss</li>
@@ -23,7 +23,7 @@ function Footer() {
           width="38"
           height="38"
           viewBox="0 0 24 24"
-          className="fill-white"
+          className="fill-[#FAA916] transform hover:scale-110 cursor-pointer"
         >
           <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
         </svg>
@@ -33,7 +33,7 @@ function Footer() {
           width="38"
           height="38"
           viewBox="0 0 24 24"
-          className="fill-white"
+          className="fill-[#FAA916] transform hover:scale-110 cursor-pointer"
         >
           <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
           <circle cx="16.806" cy="7.207" r="1.078"></circle>
@@ -44,7 +44,7 @@ function Footer() {
           width="38"
           height="38"
           viewBox="0 0 24 24"
-          className="fill-white"
+          className="fill-[#FAA916] transform hover:scale-110 cursor-pointer"
         >
           <path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path>
         </svg>
@@ -53,7 +53,7 @@ function Footer() {
           width="38"
           height="38"
           viewBox="0 0 24 24"
-          className="fill-white"
+          className="fill-[#FAA916] transform hover:scale-110 cursor-pointer"
         >
           <path d="M12 3c-4.92 0-8.91 3.729-8.91 8.332 0 2.616 1.291 4.952 3.311 6.479V21l3.041-1.687c.811.228 1.668.35 2.559.35 4.92 0 8.91-3.73 8.91-8.331C20.91 6.729 16.92 3 12 3zm.938 11.172-2.305-2.394-4.438 2.454 4.865-5.163 2.305 2.395 4.439-2.455-4.866 5.163z"></path>
         </svg>
