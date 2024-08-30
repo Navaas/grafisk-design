@@ -8,12 +8,12 @@ Detta är en inlämningsuppgift med grafisk design. Man ska ta fram en egen desi
 
 ## Grafisk design
 
-![Grafisk design](image.png)
+![Grafisk design](src/image.png)
 
 ## Wireframe
 
-![Wireframe](image-1.png)
+![Wireframe](/src/image-1.png)
 
 ## Mockup
 
-![Mockup](image-2.png)
+![Mockup](/src/image-2.png)
