@@ -12,14 +12,14 @@ function Card() {
               />
             </div>
             <h2 className="text-xl font-semibold my-2">Restaurang</h2>
-            <p className="mb-2">
+            <p className="mb-2 text-font">
               Efter en dag fylld av avslappning och behandlingar, kan du njuta
               av en kulinarisk upplevelse i vår restaurang. Lotus Oas restaurang
               erbjuder en meny skapad med fokus på hälsa och välbefinnande, med
               ett brett urval av rätter tillagade av lokala och ekologiska
               råvaror.
             </p>
-            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white">
+            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white text-font">
               Läs mer
             </button>
           </div>
@@ -32,14 +32,14 @@ function Card() {
               />
             </div>
             <h2 className="text-xl font-semibold my-2">Lotus Spa</h2>
-            <p className="mb-2">
+            <p className="mb-2 text-font">
               På Lotus Oas tar vi avslappning på största allvar. Vårt spa är
               designat för att vara en plats av fullständig ro, där mjuka toner
               och harmoniska dofter omsluter dig från första stund. Här kan du
               njuta av vårt varma bubbelbad, simma i vår uppvärmda inomhuspool
               eller ta det lugnt i våra bastur.
             </p>
-            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white">
+            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white text-font">
               Läs mer
             </button>
           </div>
@@ -52,14 +52,14 @@ function Card() {
               />
             </div>
             <h2 className="text-xl font-semibold my-2">Behandlingar</h2>
-            <p className="mb-2">
+            <p className="mb-2 text-font">
               Vi erbjuder ett brett urval av behandlingar skräddarsydda för att
               passa dina individuella behov. Vårt team av professionella
               terapeuter är specialiserade på en rad olika tekniker, från
               klassisk svensk massage och djupvävnadsmassage till aromaterapi
               och ansiktsbehandlingar.
             </p>
-            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white">
+            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white text-font">
               Läs mer
             </button>
           </div>

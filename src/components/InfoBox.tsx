@@ -3,9 +3,11 @@ function InfoBox() {
     <div className="flex justify-center items-center p-2 mt-9 bg-[#FAF9F9]">
       <div className="flex w-full xl:w-3/4 bg-white justify-center p-2 flex-col xl:flex-row shadow-md">
         <div className="flex flex-col justify-center xl:w-1/2 p-2">
-          <h3>En fridfull oas för kropp och själ.</h3>
+          <h3 className="text-font font-bold text-xl">
+            En fridfull oas för kropp och själ.
+          </h3>
           <br />
-          <p>
+          <p className="text-font">
             Välkommen till
             <span className="font-bold text-[#798E6F]"> Lotus Oas</span>, en
             lyxig och fridfull tillflyktsort där vi kombinerar traditionella
@@ -15,7 +17,7 @@ function InfoBox() {
             återhämtning och förnyelse.
           </p>
           <br />
-          <p>
+          <p className="text-font">
             Hos Lotus Oas strävar vi efter att ge dig en holistisk upplevelse
             där varje detalj är utformad för att främja ditt välbefinnande.
             Oavsett om du kommer för en snabb behandling eller en hel dags

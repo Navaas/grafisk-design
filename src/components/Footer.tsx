@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="p-6 bg-[#798E6F] flex flex-col md:flex-row md:justify-between gap-20 mt-16">
+    <footer className="p-6 bg-[#798E6F] flex flex-col md:flex-row md:justify-between gap-20 mt-16 text-font">
       <div className="flex flex-col items-start space-y-2 text-white">
         <h3 className="uppercase text-white font-bold">Om oss</h3>
         <li className="list-none cursor-pointer hover:underline hover:font-bold">

@@ -2,7 +2,7 @@ import "../styles.css";
 
 function Header() {
   return (
-    <nav className="p-4 bg-[#798E6F] flex flex-col justify-between md:flex-row">
+    <nav className="p-4 bg-[#798E6F] flex flex-col justify-between md:flex-row text-font">
       <div className="flex items-center justify-between">
         <span>Logga</span>
         <span className="md:hidden cursor-pointer">
