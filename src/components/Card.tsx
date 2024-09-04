@@ -2,8 +2,8 @@ function Card() {
   return (
     <div className="flex justify-center items-center py-16 px-2 bg-[#FAF9F9]">
       <div className="flex w-full xl:w-3/4 flex-col">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:grid-cols-3">
-          <div className="bg-[#EFEFEF] p-4 rounded-lg shadow-md hover:bg-white transition-transform duration-200 hover:scale-105">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-6 xl:grid-cols-3">
+          <div className="bg-[#EFEFEF] p-4  shadow-md hover:bg-white transition-transform duration-200 hover:scale-105">
             <div className="w-full h-72 sm:h-80 md:h-60 overflow-hidden">
               <img
                 src="https://cdn.pixabay.com/photo/2015/11/19/10/38/food-1050813_1280.jpg"
@@ -19,11 +19,11 @@ function Card() {
               ett brett urval av rätter tillagade av lokala och ekologiska
               råvaror.
             </p>
-            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white text-font">
+            <button className="bg-white border uppercase border-black border-solid p-2  text-black w-1/4 hover:bg-black hover:text-white text-font mb-12">
               Läs mer
             </button>
           </div>
-          <div className="bg-[#EFEFEF] p-4 rounded-lg shadow-md hover:bg-white transition-transform duration-200 hover:scale-105">
+          <div className="bg-[#EFEFEF] p-4 shadow-md hover:bg-white transition-transform duration-200 hover:scale-105">
             <div className="w-full h-72 sm:h-80 md:h-60 overflow-hidden">
               <img
                 src="https://plus.unsplash.com/premium_photo-1683133713237-40ab64136702?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -39,11 +39,11 @@ function Card() {
               njuta av vårt varma bubbelbad, simma i vår uppvärmda inomhuspool
               eller ta det lugnt i våra bastur.
             </p>
-            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white text-font">
+            <button className="bg-white border uppercase border-black border-solid p-2  text-black w-1/4 hover:bg-black hover:text-white text-font mb-12">
               Läs mer
             </button>
           </div>
-          <div className="bg-[#EFEFEF] p-4 rounded-lg shadow-md hover:bg-white transition-transform duration-200 hover:scale-105">
+          <div className="bg-[#EFEFEF] p-4  shadow-md hover:bg-white transition-transform duration-200 hover:scale-105">
             <div className="w-full h-72 sm:h-80 md:h-60 overflow-hidden">
               <img
                 src="https://cdn.pixabay.com/photo/2023/10/28/11/21/ai-generated-8347190_1280.png"
@@ -59,7 +59,7 @@ function Card() {
               klassisk svensk massage och djupvävnadsmassage till aromaterapi
               och ansiktsbehandlingar.
             </p>
-            <button className="bg-white border uppercase border-black border-solid p-2 rounded-sm text-black w-1/4 hover:bg-black hover:text-white text-font">
+            <button className="bg-white border uppercase border-black border-solid p-2  text-black w-1/4 hover:bg-black hover:text-white text-font mb-12">
               Läs mer
             </button>
           </div>

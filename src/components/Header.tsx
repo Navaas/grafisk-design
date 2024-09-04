@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav className="p-4 bg-[#798E6F] flex flex-col justify-between md:flex-row text-font">
       <div className="flex items-center justify-between">
-        <img src={logo} alt="logo" className="h-12 xl:h-16" />
+        <img src={logo} alt="logo" className="h-12 xl:h-16 cursor-pointer" />
         <span className="md:hidden cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
